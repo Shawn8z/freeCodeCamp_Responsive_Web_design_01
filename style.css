@@ -1,0 +1,121 @@
+#main {
+    background-color: rgba(238,238,238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    height: 2460px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    color: rgb(51,51,51);
+    font-size: 37px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 10px
+}
+
+.sub_h1 {
+    color: rgb(82, 82, 82);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+#image-div {
+    display: flex;
+    background: white;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 96%;
+    height: auto;
+}
+
+#img-caption {
+    color: rgb(92, 92, 92);
+    font-weight: 400;
+    font-size: 14.75px;
+    max-width: 96%;
+    text-align: center;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(51,51,51);
+    font-size: 18px;
+    margin-top: 52px;
+    margin-bottom: 25px;
+}
+
+.info-box {
+    color: rgb(92, 92, 92);
+    max-width: 550px;
+    font-size: 15px;
+    line-height: 1.7em;;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.quote {
+    color: rgb(19, 19, 19);
+    max-width: 550px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Ruluko', sans-serif;
+    line-height: 1.5em;
+}
+
+.foot {
+    color: rgb(51,51,51);
+    font-weight: 800;
+    font-size: 17.6px;
+    padding-top: 14px;
+}
+
+@media (max-width: 420px) {
+    body {
+        margin: 0;
+    }
+
+    #main {
+        margin: 0;
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+    .sub_h1 {
+        font-size: 15px;
+    }
+
+    #img-caption {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .quote {
+        line-height: 1.3em;
+    }
+
+    .foot {
+        text-align: center;
+    }
+}
